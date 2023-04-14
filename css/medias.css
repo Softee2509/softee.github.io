@@ -73,6 +73,18 @@
   }
 }
 
+@media screen and (max-width: 376px) {
+  #histoire h1{ 
+    width: 90%;
+    font-size: 7rem;
+  }
+
+  @media screen and (max-width: 320px) {
+  #histoire h1{ 
+    width: 90%;
+    font-size: 6rem;
+  }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #histoire h1{ 
     width: 70%;
@@ -123,8 +135,22 @@
 
 @media screen and (max-width: 767px) {
   #personnages h1{ 
-    width: 90%;
+    width: 80%;
     font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #personnages h1{ 
+    width: 90%;
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #personnages h1{ 
+    width: 90%;
+    font-size: 4rem;
   }
 }
 
@@ -167,10 +193,6 @@
 /* GALERIE */
 
 @media screen and (max-width: 767px) {
-  .galerie_photos img{
-
-  }
-
   #galerie h1{
     font-size: 8rem;
     width: 80%;
@@ -182,6 +204,24 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .galerie_photos{
+    row-gap: 60px;
+    grid-template-columns: repeat(auto-fill,minmax(370px, 300px));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #galerie h1{
+    font-size: 6rem;
+  }
+
+@media screen and (max-width: 320px) {
+  .galerie_photos{
+    row-gap: 60px;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 300px));
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #galerie h1{
